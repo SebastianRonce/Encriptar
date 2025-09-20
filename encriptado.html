@@ -1,0 +1,24 @@
+<!doctype html> 
+
+<html>   
+<head>
+    <title> Incriptar </title>
+    <style>
+        h1 { text-align: center; }
+    </style>
+	<script src = "funcion_encriptado.js"> </script>
+</head>
+	<body>
+		<h1> Texto Incriptado </h1>
+        <label> Mensaje sin encriptar</label>
+				<input id="mse" type="text">
+                <br><br>
+		        <input id="btnencriptar" type="submit" onclick="encriptar()" value="Encriptar">
+        <p id="se">Mensaje encriptado: </p>
+        <label> Mensaje encriptado</label>
+                <input id="msa" type="text">
+                <br><br>
+				<input id="btndesencriptar" type="submit" onclick="desencriptar()" value="Desencriptar">
+		<p id="sa">Mensaje sin encriptar: </p>
+	</body>
+</html>   
