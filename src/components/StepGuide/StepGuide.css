@@ -1,0 +1,36 @@
+.step-guide {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  background: var(--bg-soft);
+  margin-top: 16px;
+}
+
+.step-guide-title {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.step-guide ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.step-guide li {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.step-guide code {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  background: rgba(34, 211, 238, 0.1);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}

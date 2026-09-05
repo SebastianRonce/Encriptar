@@ -1,0 +1,73 @@
+.complex-plot {
+  display: block;
+  border-radius: var(--radius-sm);
+}
+
+.property-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.property-list > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+}
+
+.property-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.property-value {
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.complex-inputs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 520px) {
+  .complex-inputs-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.operation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.operation-card {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.operation-title {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.operation-result {
+  font-size: 1rem;
+  color: var(--ok);
+  font-weight: 600;
+}

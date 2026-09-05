@@ -1,0 +1,27 @@
+{
+  "name": "cryptosafe",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Herramienta educativa para explorar cifrado de mensajes, números complejos y seguridad de contraseñas.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/server.js",
+    "server:dev": "node --watch server/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "express": "^5.2.1",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  }
+}
